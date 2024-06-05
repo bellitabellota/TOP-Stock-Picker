@@ -22,7 +22,14 @@ def stock_picker (stock_price_array)
       best_days[1] = spread_buy_sell[2]
     end
   end
-  best_days
+
+  # if no profit can made:
+  if best_days == [nil, nil]
+    "Don't trade no profit can be made"
+  else
+    best_days
+  end
 end
 
 p stock_picker([17,3,6,9,15,8,6,1,10])
+p stock_picker([17, 15, 13])
