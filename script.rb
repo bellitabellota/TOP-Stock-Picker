@@ -33,3 +33,7 @@ end
 
 p stock_picker([17,3,6,9,15,8,6,1,10])
 p stock_picker([17, 15, 13])
+p stock_picker([17, 2])
+p stock_picker([2, 17])
+p stock_picker([3])
+p stock_picker([])
